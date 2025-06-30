@@ -1,3 +1,4 @@
+#auto_scaling_grp.tf
 resource "aws_autoscaling_group" "BSE_AutoScalingGroup" {
   name                      = "BSE-AutoScalingGroup"
   min_size                  = 1

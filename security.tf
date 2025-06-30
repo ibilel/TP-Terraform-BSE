@@ -1,3 +1,4 @@
+#security.tf
 resource "aws_security_group" "BSE_SecurityGroup_LB" {
   name        = "BSE_SecurityGroup_LB"
   description = "Allow HTTP traffic"
