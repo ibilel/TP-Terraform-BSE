@@ -1,7 +1,7 @@
 # launch_template.tf
 resource "aws_launch_template" "BSE_LaunchTemplate" {
   name_prefix   = "BSE-LaunchTemplate-"
-  image_id      = "ami-0c02fb55956c7d316" # AMI Amazon Linux 2 (Paris) – à adapter si besoin
+  image_id      = "ami-0c02fb55956c7d316"
   instance_type = "t2.micro"
 
   user_data = base64encode(<<-EOF
