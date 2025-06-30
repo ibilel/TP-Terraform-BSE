@@ -1,4 +1,3 @@
-# launch_template.tf
 resource "aws_launch_template" "BSE_LaunchTemplate" {
   name_prefix   = "BSE-LaunchTemplate-"
   image_id      = "ami-0c02fb55956c7d316"
